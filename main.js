@@ -27,7 +27,7 @@ let game = {
   displayResult: function() {
     const currentTime = Date.now();
     const elapsedTime = formattedSeconds(currentTime - game.startTime);
-    game.resultArea.innerText = `${elapsedTime} 秒かかりました。\n もう一度プレイする場合にはブラウザをリロードしてください。`;
+    game.resultArea.innerHTML = `<p>${elapsedTime} 秒かかりました。</p><p><span class="material-icons">refresh</span>もう一度プレイする場合にはブラウザをリロードしてください。</p>`;
     game.isPlaying = false;
   },
   displayWord: function() {

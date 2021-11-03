@@ -14,3 +14,7 @@ body {
 #result {
   font-size: 36px;
 }
+
+.material-icons.large {
+  font-size: 48px;
+}
