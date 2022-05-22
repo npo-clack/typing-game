@@ -9,6 +9,9 @@ main.js
 style.css
 ```
 
+## 参考
+Javascriptなどでわからないことがあれば[MDN web docs](https://developer.mozilla.org/ja/docs/Web)の検索窓で調べてみましょう。
+
 ## 1. HTML
 タイピングゲームで単語を表示する枠を作ります。
 ```html:index.html
